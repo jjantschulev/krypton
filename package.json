@@ -1,0 +1,25 @@
+{
+  "name": "krypton",
+  "version": "1.0.0",
+  "description": "Encrypt Messages",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraken22/krypton.git"
+  },
+  "keywords": [
+    "Encrypt",
+    "Decrypt",
+    "krypton",
+    "safe"
+  ],
+  "author": "Jordan Jantschulev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraken22/krypton/issues"
+  },
+  "homepage": "https://github.com/kraken22/krypton#readme"
+}
