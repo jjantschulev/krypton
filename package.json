@@ -4,7 +4,9 @@
   "description": "Encrypt Messages",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node main.js",
+    "start": "electron .",
+    "build": "electron-packager ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/kraken22/krypton/issues"
   },
-  "homepage": "https://github.com/kraken22/krypton#readme"
+  "homepage": "https://github.com/kraken22/krypton#readme",
+  "dependencies": {
+    "random-seed": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-builder": "^19.13.0"
+  }
 }

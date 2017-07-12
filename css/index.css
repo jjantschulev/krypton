@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+
+#draggable_margin {
+  width: 100%;
+  height: 25px;
+  -webkit-app-region: drag;
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 30px;
+  padding: 0;
+  width: calc(50vw - 60px);
+  height: calc(100vh - 85px);
+  float: left;
+
+}
+
+.main_text {
+  font-size: 1.9em;
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: white;
+
+
+
+  outline: none;
+  resize: none;
+  background-color: black;
+
+  height: 100%;
+  width: 100%;
+  padding:5px;
+  border: none;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
